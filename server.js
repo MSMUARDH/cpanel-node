@@ -15,6 +15,11 @@ app.get('/hello', (req, res) => {
     res.status(200).json('HELLO, THIS IS from a fucker....!');
 });
 
+// below is fucking new function
+app.get('/fuck', (req, res) => {
+    res.status(200).json('HELLO, THIS IS from a fucker....!');
+});
+
 // START THE SERVER
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
